@@ -59,8 +59,8 @@ bash bdd_oia.sh
 ```
 
 Each script runs both methods:
-- `ABL` — the baseline approach.
-- `A3BL` — the proposed approach (uses `--topk` where applicable).
+- `ABL` — the abductive learning method.
+- `A3BL` — a variant of ABL, which consider the ambiguity during the abduction process, details ref to [A3BL](https://github.com/Hao-Yuan-He/A3BL).
 
 You can edit the scripts to change hyperparameters (e.g., `--epochs`, `--digit_size`, `--mod1`, `--mod2`, `--topk`).
 
@@ -88,6 +88,32 @@ Using the DCSP framework, you can examine the learnability of a neuro‑symbolic
 - If `A3BL` already exists locally, the setup will skip cloning; update it manually if needed.
 - To exit the Nix shell: `exit`.
 
+
+## Citation
+
+If you use the code of this repo or `A3BL`, please consider to cite me. 
+
+```biblatex
+@inproceedings{he2025AnalysisOnNeSy,
+  address     = {San Diego, CA, USA},
+  author      = {Hao-Yuan He and Ming Li},
+  booktitle   = {Advances in Neural Information Processing Systems 38},
+  title       = {A Learnability Analysis on Neuro-Symbolic Learning},
+  year        = {2025}
+}
+
+
+@inproceedings{he2024a3bl,
+  address = {Vienna, Austria},
+  author = {He, Hao-Yuan and Sun, Hui and Xie, Zheng and Li, Ming},
+  booktitle = {Proceedings of The 41st International Conference on Machine Learning},
+  pages = {18019--18042},
+  publisher = {PMLR},
+  title = {Ambiguity-Aware Abductive Learning},
+  volume = {235},
+  year = {2024}
+}
+```
 
 ## Acknowledgements
 

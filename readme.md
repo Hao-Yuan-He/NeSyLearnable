@@ -115,6 +115,10 @@ If you use the code of this repo or `A3BL`, please consider to cite me.
 }
 ```
 
-## Acknowledgements
+## License 
 
-This repository orchestrates experiments using the external `A3BL` project (https://github.com/Hao-Yuan-He/A3BL) and additional utilities contained here.
+MIT License 
+
+## Acknowledgements 
+
+Thanks for ABLkit (https://github.com/AbductiveLearning/ABLkit).
